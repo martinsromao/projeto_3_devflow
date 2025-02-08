@@ -1,5 +1,8 @@
 main{
-  background-image: url(../imagens/capa.png);
+ 
+    background-image: url('../../imagens/capa.png');
+    /* ...resto do código... */
+  
   height: 550px;
   background-size: cover;
   align-content: center;
