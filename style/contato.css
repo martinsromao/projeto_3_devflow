@@ -1,0 +1,55 @@
+.contato{
+  height: 100%;
+  width: 100%;
+  background-color: var(--cor-text-cel);
+  display: flex;
+  padding-top: 100px;
+  color: var(--cor-text);
+  
+    h2{
+      margin-top: 0;
+      font-weight: 300;
+    }
+  form{
+    margin-left: 100px;
+    max-width: 481px;
+    display: block;
+    
+    input{
+      padding-left: 10px;
+      width: 100%;
+      height: 59px;
+      margin-bottom: 20px;
+    }
+    textarea{
+      padding-left: 10px;
+      width: 100%;
+      height: 159px;
+    }
+    button{
+      max-width: 100px;
+      width: 100%;
+      height: 40px;
+      border-radius: 25px;
+      border: 0;
+      margin-top: 10px;
+      background-color: var(--cor-button);
+      color: var(--cor-text);
+      cursor: pointer;
+    }
+  }
+  
+  .mapa{
+    padding: 20px;
+    width: 100%;
+    margin: 0;
+    
+    .sub-map{
+      width: 100%;
+      
+      height: 420px;
+     
+      background-color: var(--cor-text);
+    }
+  }
+}

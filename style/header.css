@@ -1,0 +1,75 @@
+header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 90px;
+  background-color: rgb(62, 24, 102);
+  img{
+    width: 180px;
+    height: 90px;
+  }
+  .menu ul{
+    display: flex;
+    gap: 2rem;
+    
+    li{
+      list-style: none;
+      margin-right: 20px;
+    }
+    li a{
+      text-decoration: none;
+      cursor: pointer;
+      color: var(--cor-text);
+
+    }
+  }
+ 
+
+.sidebar {
+  
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 250px;
+    height: 100%;
+    background-color: #111;
+    color: white;
+    padding-top: 20px;
+    z-index: 2; /* Certifique-se de que a barra lateral esteja acima do conteúdo principal */
+}
+
+.sidebar h2 {
+    text-align: center;
+}
+
+.sidebar ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.sidebar ul li {
+    padding: 8px;
+    text-align: center;
+}
+
+.sidebar ul li a {
+    color: white;
+    text-decoration: none;
+    display: block;
+}
+
+.sidebar ul li a:hover {
+    background-color: #575757;
+}
+
+
+}
+.logo-mobile2{
+  img{
+    cursor: pointer;
+    width: 44px;
+    height: 44px;
+    margin-left: 12%;
+  }
+}

@@ -1,0 +1,33 @@
+.text-cel{
+  display: flex;
+  
+  height: 459px;
+  background-color: var(--cor-text-cel);
+
+  ul{
+    position: absolute;
+    left: 150px;
+    color: var(--cor-text);
+    li{
+      margin-left: 20px;
+      margin-bottom: 10px;
+    }
+    button{
+      margin-top: 50px;
+      width: 165px;
+      height: 44px;
+      border-radius: 10px;
+      border: 0;
+      cursor: pointer;
+      background-color: var(--cor-button);
+      color: var(--cor-tex);
+    }
+  }
+  img{
+    top: -70px;
+    position: relative;
+    left: 570px;
+   
+    height: 528px;
+  }
+}

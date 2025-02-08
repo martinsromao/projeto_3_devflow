@@ -1,0 +1,22 @@
+main{
+  background-image: url(../imagens/capa.png);
+  height: 550px;
+  background-size: cover;
+  align-content: center;
+  .texto{
+    float: right;
+    max-width: 700px;
+  }
+  h1{
+    color: var(--cor-text);
+    margin: 0;
+    
+    
+  }
+  p{ 
+    color: var(--cor-text);
+    
+    max-width: 620px;
+    font-size: 18px;
+  }
+}
